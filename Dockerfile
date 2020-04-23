@@ -261,4 +261,27 @@ RUN cd ${HOME}/toolkit && \
     chmod +x dotdotpwn.pl && \
     ln -s ${HOME}/toolkit/dotdotpwn/dotdotpwn.pl /usr/local/bin/dotdotpwn
 
+#AssetFinder
+RUN go get -u github.com/tomnomnom/assetfinder
+
+#meg
+RUN go get -u github.com/tomnomnom/meg
+
+#httprobe
+RUN go get -u github.com/tomnomnom/httprobe
+
+#gobuster
+RUN go get -u github.com/tomnomnom/gobuster
+
+#html-tool
+RUN go get -u github.com/tomnomnom/html-tool
+
+#subfinder
+RUN go get -u github.com/tomnomnom/subfinder
+
+#gf
+RUN go get -u github.com/tomnomnom/gf
+
+
+
 
